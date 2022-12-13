@@ -120,10 +120,11 @@
 }
 
 .staff__cards {
-  display: flex;
   max-width: 760px;
-  gap: 40px;
+  height: 420px;
+  gap: 40px 20px;
   margin-top: 68px;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 0;
